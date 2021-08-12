@@ -235,6 +235,25 @@
   .profilePic {
 
   }
+  table, tr, td {
+    border: 1px solid black;
+   }
+  #interestsTable {
+   width: 30%;
+   border: 3px solid black;
+   border-collapse: collapse;
+   text-align: center;
+  }
+   #interestsTable tr:nth-child(even) {
+      background-color: #b3d9ff;
+      }
+    #interestsTable tr:nth-child(odd) {
+      background-color: #80bfff;
+    }
+   img {
+
+   }
+
 </style>
 
 <!-- Toolbar -->
@@ -249,6 +268,7 @@
 </div>
 
 <div class="content" role="main">
+  <img src="assets/zoompic.jpg" alt="Profile Pic" width="410" height="445"/>
 
   <!-- Highlight Card -->
   <div class="card highlight-card card-small">
@@ -265,7 +285,6 @@
     </svg>
 
     <span>{{ title }} : Who am I?</span>
-
     <svg id="rocket-smoke" xmlns="http://www.w3.org/2000/svg" width="516.119" height="1083.632" viewBox="0 0 516.119 1083.632">
       <title>Rocket Ship Smoke</title>
       <path id="Path_40" data-name="Path 40" d="M644.6,141S143.02,215.537,147.049,870.207s342.774,201.755,342.774,201.755S404.659,847.213,388.815,762.2c-27.116-145.51-11.551-384.124,271.9-609.1C671.15,139.365,644.6,141,644.6,141Z" transform="translate(-147.025 -140.939)" fill="#f5f5f5"/>
@@ -304,8 +323,23 @@
   </div>
   <!-- Next Steps -->
   <h2>Interests</h2>
-  <p>A brief overview of some of the things that interests myself!</p>
-  <app-my-interests></app-my-interests>
+  <caption style="font-size: 150%">A brief overview of some of the things that interests myself!</caption>
+   <table id="interestsTable">
+     <tr>
+       <td>Non-Fiction Science Books</td>
+     </tr>
+     <tr>
+       <td>Information regarding Autism</td>
+     </tr>
+     <tr>
+       <td>Doctor Who</td>
+     </tr>
+     <tr>
+       <td>Tutoring Kids</td>
+     </tr>
+
+   </table>
+
 
   <input type="hidden" #selection>
 
