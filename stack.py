@@ -1,4 +1,12 @@
 # Stack Implementation in Python
+# A stack is a Last In First Out (LIFO) data structure
+# it is linear and can be used for things like the back
+# button in browsers, sending the user to the last page
+# they were on which was placed on top of the stack
+
+#Basic Operations: Push, Pop, IsEmpty, IsFull, Peek
+#   Push and Pop take constant times for an array based implementation: O(1)
+
 # This program was written in the Spyder IDE
 
 #creat a stack first
@@ -8,7 +16,7 @@ def create_a_stack():
 
 #check if stack is empty
 def is_stack_empty(stack):
-    return len(stack) == -1
+    return len(stack) == 0
 
 #add an item to the stack
 def push_on_to_stack(stack, item):
