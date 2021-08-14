@@ -4,8 +4,8 @@
 # button in browsers, sending the user to the last page
 # they were on which was placed on top of the stack
 
-#Basic Operations: Push, Pop, IsEmpty, IsFull, Peek
-#   Push and Pop take constant times for an array based implementation: O(1)
+#Basic Operations: push(item), pop(), empty(), top(), size()
+#   Time Complexity for each operation: O(1)
 
 # This program was written in the Spyder IDE
 
