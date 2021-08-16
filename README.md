@@ -8,3 +8,7 @@ Note: This repo is unfinished and I have more projects/programs to add that have
 * Stack.py is a program that demonstrates my ability to implement a stack data structure and my ability to code in Python.
 
 * The LLJava directory is a program written in Java that shows my understanding of the Linked List data structure written in Java.
+
+* The hw2-linked-list-big-five-awebbs directory is an assignment I completed while at Gonzaga to show that I was capable of finishing a .h file that was to implement a linked list data structure in the C++ language. One of the tasks was to create methods for the big five: constructor, assignment constructure, move constructor, assignment operator, move operator, and a destructor.
+
+* insertionSort.h and quickSort.h are programs written in the C++ language that demonstrates my ability to design these two sorting algorithms using the vector data structure. The programs also keep track of the number of moves and compares for a big-o analysis.
