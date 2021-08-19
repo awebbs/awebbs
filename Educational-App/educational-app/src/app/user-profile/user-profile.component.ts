@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { User } from '../user';
+import { PROFILES } from '../mock-users';
+
 
 
 @Component({
@@ -8,13 +10,17 @@ import { User } from '../user';
   styleUrls: ['./user-profile.component.css']
 })
 export class UserProfileComponent implements OnInit {
-    user: User = {
-      id: 1,
-      name: 'Profile1'
-    };
+
+users = PROFILES;
+selectedUser?: User;
+
 
   constructor() {}
   ngOnInit() {
   }
 
+
+  onSelect(user: User): void {
+  this.selectedUser = user;
+}
 }
