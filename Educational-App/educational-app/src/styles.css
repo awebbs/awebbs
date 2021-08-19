@@ -1,0 +1,23 @@
+/* Application-wide Styles*/
+
+h1 {
+  color: #369;
+   font-family: Times New Roman, Times, serif;
+   font-size: 250%
+}
+h2, h3 {
+  color: #461A9E;
+  font-family: Times New Roman, Times, serif;
+  font-weight: lighter;
+}
+body {
+  margin: 2em;
+}
+body, input[type="text"], button {
+  color: #369;
+  font-family: Times New Roman, Times, serif;
+}
+/*everywhere else*/
+* {
+  font-family: Helvetica, serif;
+}
