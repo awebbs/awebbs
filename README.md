@@ -1,7 +1,7 @@
 A repository made public to show programs and projects that have been completed or I’m currently working on. 
 Note: This repo is unfinished and I have more projects/programs to add that have not been pushed.
 
-* The Educational-App is a program I am building because I desire to become familiar with Angular, designing front-end interfaces, and because education is extremly important. Eventually I would love to design an application for homeschooling children with disabilies. My daughter is autistic and I found as a parent that there are not many resources in the public school system to meet my daughter's needs. This application is in it's infancy, as I just started designing it. 
+* The Educational-App is a program I am building because I desire to become familiar with the Angular framework, designing front-end interfaces, and because education is extremly important. Eventually I would love to design an application for homeschooling children with disabilies. My daughter is autistic and I found as a parent that there are not many resources in the public school system to meet my daughter's needs. This application is in it's infancy, as I just started designing it. 
 
 * The directory "my-site" is an Angular project I'm working on to get more familiar with that application.
 
