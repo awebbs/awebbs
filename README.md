@@ -3,6 +3,10 @@ Note: This repo is unfinished and I have more projects/programs to add that have
 
 * The Educational-App is a program I am building because I desire to become familiar with the Angular framework, designing front-end interfaces, and because education is extremly important. Eventually I would love to design an application for homeschooling children with disabilies. My daughter is autistic and I found as a parent that there are not many resources in the public school system to meet my daughter's needs. This application is in it's infancy, as I just started designing it. 
 
+* 491 CPSC EOS Presentation Team 11 Powerpoint is a slideshow that my senior design team presented on where we were at with our Boeing application. We worked weekly with Boeing reps to design an application per their requirements. It goes over our tech stack and plans for moving forward.
+
+* CPSC 492L Team 11 Spring Mid Semester Powerpoint slideshow was a continuance of our progress from where the senior design team was during our Boeing applications. 
+
 * The directory "my-site" is an Angular project I'm working on to get more familiar with that application.
 
 * The CPSC 315 HW files, are PowerPoint Slideshows for the Business Intelligence Tech course I had taken at Gonzaga. They are to demonstrate my ability to use various business intell software, like Tableau and Power BI to analyze data and design sheets, dashboards, and stories.
