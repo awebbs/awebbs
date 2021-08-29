@@ -9,6 +9,8 @@ Note: This repo is unfinished and I have more projects/programs to add that have
 
 * The CPSC 492L Team 11 Final Presentation is a Powerpoint slideshow that sums up what we as a team accomplished for our last great task while being a student. This was such a great experience and we felt honored to share the work we accomplished with Boeing and our peers. 
 
+* The RomToInt-Leetcode class solution I created. My submission passed 3999 test cases, my runtime was 7 ms and the memory usage was 6 MB.
+
 * The directory "my-site" is an Angular project I'm working on to get more familiar with that application.
 
 * The CPSC 315 HW files, are PowerPoint Slideshows for the Business Intelligence Tech course I had taken at Gonzaga. They are to demonstrate my ability to use various business intell software, like Tableau and Power BI to analyze data and design sheets, dashboards, and stories.
