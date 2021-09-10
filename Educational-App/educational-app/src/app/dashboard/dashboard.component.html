@@ -1,0 +1,10 @@
+<h2>Top Results</h2>
+
+<div class="users-menu">
+ <a  *ngFor="let user of users"
+    routerLink="/user-detail:"{{user.id}}
+    {{user.name}}
+     routerLinkActive="active">Details
+  </a>
+  <router-outlet></router-outlet>
+</div>

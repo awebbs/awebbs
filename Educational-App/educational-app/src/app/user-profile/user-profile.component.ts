@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { User } from '../user';
 import { PROFILES } from '../mock-users';
+import { UserService } from '../user.service';
+import { MessageService } from '../message.service';
 
 
 
@@ -11,16 +13,20 @@ import { PROFILES } from '../mock-users';
 })
 export class UserProfileComponent implements OnInit {
 
-users = PROFILES;
+users: User[] = [];
+
 selectedUser?: User;
 
 
-  constructor() {}
+  constructor(private userService: UserService, private messageService: MessageService) {}
+
   ngOnInit() {
+  this.getUsers();
   }
 
+  getUsers(): void {
+    this.userService.getUsers()
+   .subscribe(users => this.users = users);
+  }
 
-  onSelect(user: User): void {
-  this.selectedUser = user;
-}
 }
