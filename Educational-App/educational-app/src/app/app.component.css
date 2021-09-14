@@ -1,4 +1,26 @@
+h1{
+  text-align: center;
+}
+
+
 .img1{
   margin-left: 800px;
   height: 250px;
+  image: fixed;
+}
+
+li{
+  position: right;
+  padding: 8px;
+  top: 5;
+  width: 100%;
+  margin: 1em;
+  font-family: "Times New Roman", Times, Serif;
+
+}
+
+body {
+
+  font-family:"Times New Roman" Times, Serif;
+  background-color: lightblue;
 }

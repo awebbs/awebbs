@@ -14,11 +14,14 @@
   padding: .3em 0;
   height: 1.6em;
   border-radius: 4px;
+  font-family: "Times New Roman", Times, Serif;
+
 }
 
 .users li.selected {
   background-color: #5F30C4;
   color: white;
+
 }
 
 .users li.selected:hover {
@@ -29,6 +32,8 @@
 .users li.selected:active {
   background-color: black;
   color: white;
+
+
 }
 
 .users .accountNumber {
@@ -44,8 +49,15 @@
    height: 1.8em;
    margin-right: .8em;
    border-radius: 4px 0 0 4px;
+   font-family: "Times New Roman", Times, Serif;
 }
 
 input {
   padding: .5em;
 }
+
+body {
+  font-family: "Times New Roman", Times, Serif;
+}
+
+
