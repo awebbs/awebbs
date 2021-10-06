@@ -1,7 +1,7 @@
 import { User } from './user';
 
 export const PROFILES: User[] = [
-  { id: 2, name: 'Bob' },
+  { id: 2, name: 'Addi' },
   { id: 3, name: 'PorkChop' },
   { id: 4, name: '3rd Person' },
   { id: 5, name: 'Aubrey'},
