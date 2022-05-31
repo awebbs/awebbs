@@ -31,4 +31,11 @@ select distinct city
 from station
 where city rlike '^[aeiouAEIOU].*[aeiouAEIOU]$'
 
+/*
+Query the list of CITY names that do not begin with an vowel. 
+Your result cannot contain duplicates.
+*/
+select distinct city
+from station
+where city Not rlike '^[aeiou]';
 
