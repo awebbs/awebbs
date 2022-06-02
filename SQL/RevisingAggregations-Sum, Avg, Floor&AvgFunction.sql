@@ -17,3 +17,11 @@ Query the average population of all cities rounded down to the nearest integer.
 */
 select floor(avg(population))
 from city;
+
+/*
+Query the sum of the population of all Japanese cities in CITY. The countrycode
+is 'JPN'
+*/
+select sum(population)
+from city
+where countrycode like 'JPN';
