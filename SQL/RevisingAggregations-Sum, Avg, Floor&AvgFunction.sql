@@ -25,3 +25,9 @@ is 'JPN'
 select sum(population)
 from city
 where countrycode like 'JPN';
+
+/*
+Query the difference between the maximum and minimum populations in CITY.
+*/
+select max(population) - min(population)
+from city;
