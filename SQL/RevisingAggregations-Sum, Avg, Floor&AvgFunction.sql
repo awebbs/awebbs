@@ -11,3 +11,9 @@ Query the average population of all cities in CITY where District is 'California
 select avg(population)
 from city
 where district like "california";
+
+/*
+Query the average population of all cities rounded down to the nearest integer.
+*/
+select floor(avg(population))
+from city;
