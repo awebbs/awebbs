@@ -46,5 +46,13 @@ or end with a vowel. Result cannot contain duplicates.
 select distinct city
 from station
 where city not rlike '^[aeiou]'
-or city not like '[aeiou]$'
+or city not rlike '[aeiou]$';
 
+/*
+Query the list of CITY names that do not begin with a vowel
+and does not end with a vowel. Your result cannot contain duplicates.
+*/
+select distinct city
+from station
+where city not rlike '^[aeiou]'
+and city not rlike '[aeiou]$;
