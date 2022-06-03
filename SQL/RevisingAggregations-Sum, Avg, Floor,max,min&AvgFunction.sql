@@ -31,3 +31,10 @@ Query the difference between the maximum and minimum populations in CITY.
 */
 select max(population) - min(population)
 from city;
+
+/*
+Query a count of the number of cities in CITY having a population larger than 100,000.
+*/
+select count(population > 100000)
+from city
+where population > 100000;
