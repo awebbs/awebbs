@@ -74,9 +74,9 @@ from station
 where lat_n < 137.2345;
 
 /*
-Query the Western Longitude (LONG_W) for the largest Northern Latitude (LAT_N) from STATION that is less than 137.2345. 
-Truncate your answer to 4 decimal places.
+Query the smallest Northern Latitude (LAT_N) from STATION that is greater than 38.7880. 
+Round your answer to 4 decimal places.
 */
-select round(long_w, 4)
+select round(min(lat_n), 4)
 from station
-where max(lat_n) < 137.2345);
+where lat_n > 38.7880;
