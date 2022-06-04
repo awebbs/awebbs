@@ -73,3 +73,10 @@ select round(max(lat_n), 4)
 from station
 where lat_n < 137.2345;
 
+/*
+Query the Western Longitude (LONG_W) for the largest Northern Latitude (LAT_N) from STATION that is less than 137.2345. 
+Truncate your answer to 4 decimal places.
+*/
+select round(long_w, 4)
+from station
+where max(lat_n) < 137.2345);
